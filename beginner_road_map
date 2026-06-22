@@ -1,0 +1,54 @@
+# 🚀 C++ Beginner's Roadmap: From Bricks to Blueprints
+
+Welcome to your structured guide to mastering the fundamentals of C++. This roadmap avoids complex jargon and focuses on building your skills naturally, treating each stage as a new tool added to your programming toolbox.
+
+---
+
+## 🧱 Phase 1: The Raw Materials (The Bricks)
+*Goal: Understand how to store data and talk to your computer.*
+
+*   **1. Inputs and Outputs (`<iostream>`)**: Learn how to print text to the screen (`std::cout`) and read what the user types (`std::cin` and `std::getline`).
+*   **2. Primitive Data Types**: Master the fundamental building blocks:
+    *   `int` for whole numbers (e.g., `10`, `-5`)
+    *   `double` or `float` for decimal numbers (e.g., `19.99`)
+    *   `char` for single letters (e.g., `'A'`)
+    *   `bool` for true or false switches
+*   **3. Basic Math & Operators**: Learn how to use `+`, `-`, `*`, `/`, and `%` (modulo, which finds the remainder of a division).
+
+---
+
+## 🚦 Phase 2: Controlling the Flow (The Traffic Cop)
+*Goal: Teach your program how to make decisions and repeat tasks.*
+
+*   **1. Conditionals (`if`, `else if`, `else`)**: Use comparisons like `==` (equals), `!=` (does not equal), `>`, and `<` to make your program take different paths based on user input.
+*   **2. Logical Operators**: Combine conditions using `&&` (AND) and `||` (OR).
+*   **3. Loops (`while` and `for`)**: 
+    *   Use `while` loops to keep a program running until a certain condition is met (like your menu loop).
+    *   Use `for` loops to repeat an action a specific number of times (like counting through a list).
+
+---
+
+## 📦 Phase 3: Grouping Data (The Storage Boxes)
+*Goal: Learn how to hold multiple pieces of information at once.*
+
+*   **1. Standard Strings (`std::string`)**: Learn how this library tool safely manages chains of characters for you.
+*   **2. Dynamic Lists (`std::vector`)**: Learn how to create lists that can grow and shrink automatically (`.push_back()`, `.size()`, `.clear()`).
+*   **3. Array Indexing**: Understand why computers start counting at `0` instead of `1`, and how to safely look up items in a list using square brackets like `myList[0]`.
+
+---
+
+## 🗺️ Phase 4: Organizing Your Code (The Blueprints)
+*Goal: Stop copying and pasting your own code by breaking it into reusable pieces.*
+
+*   **1. Functions**: Learn how to wrap a block of code into a single reusable command (e.g., creating a function named `printMenu()` that you can call with just one line).
+*   **2. Parameters and Return Types**: Learn how to pass data *into* a function, and how a function can send a result *back* to you.
+*   **3. Scope**: Understand why a variable created inside a loop or function cannot be seen or used outside of it.
+
+---
+
+## 📚 Recommended Free Learning Resources
+
+To study this checklist, use these highly regarded, free beginner resources:
+
+1.  **[LearnCPP.com](https://learncpp.com)**: This is universally considered the absolute best, most up-to-date website for learning C++. It is entirely free and breaks things down step-by-step from the very beginning.
+2.  **[The Cherno's C++ Series (YouTube)](https://youtube.com)**: If you prefer videos, "The Cherno" has a fantastic C++ playlist. He explains *how* the computer handles code under the hood in a very visual, easy-to-understand way.
