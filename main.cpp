@@ -1,13 +1,15 @@
 #include <iostream>
 
-// iterating using for loops
+/*
+* reading an unknown number of inputs
+* from user supplied data
+*/
 
 int main(){
-    int sum = 0; // sum value from 1 through 10
-    for (int val = 1; val <= 10; ++val)
-        sum += val;
-        std::cout << "sum of 1 through 10 is: " << sum << std::endl;
+    int sum = 0, value = 0;
+    while (std::cin >> sum){
+        sum += value;
+        std::cout << "sum is: " << sum << std::endl;
+    }
     return 0;
 }
-
-
